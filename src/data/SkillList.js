@@ -1,0 +1,16 @@
+const SkillList = [
+    {
+        title: "Programming Languages",
+        items: ["JavaScript", "Python", "Java", "C++", "Swift", "HTML", "CSS", "SQL", "R"],
+    },
+    {
+        title: "Frameworks / Libraries",
+        items:  ["React", "Express", "Django", "SwiftUI"],
+    },
+    {
+        title: "Other Technologies",
+        items: ["Microsoft Office", "Google Cloud", "Linux", "Bash Scripting", "XCode", "Notion"]
+    }
+]
+
+export default SkillList;
