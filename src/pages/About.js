@@ -6,8 +6,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import '../styles/About.css';
 import Resume from '../assets/resume.pdf';
 
-const Linkedin = "/";
-const Github = "/";
+const Linkedin = "https://www.linkedin.com/in/david-chen-69a226284/";
+const Github = "https://github.com/david-hp-0726";
 
 function About() {
     return (
