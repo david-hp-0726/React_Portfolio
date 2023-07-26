@@ -2,9 +2,16 @@ import Image_Blog from '../assets/blog.png';
 import Image_Todoapp from '../assets/todoapp.png';
 import Image_Xgboost from '../assets/xgboost.png';
 import Image_Translation from '../assets/translation.png';
-
+import Image_Ecommerce from '../assets/ecommerce.png'
 
 const ProjectList = [
+    { 
+        name: "Amazon Mock-up",
+        language: "JavaScript", 
+        framework_library: "React",
+        github_link: "https://github.com/Ecommerce_App",
+        image: Image_Ecommerce
+    },
     {
         name: "Markdown Article Blog", 
         language: "JavaScript",
