@@ -9,7 +9,7 @@ const ProjectList = [
         name: "Amazon Mock-up",
         language: "JavaScript", 
         framework_library: "React",
-        github_link: "https://github.com/Ecommerce_App",
+        github_link: "https://github.com/david-hp-0726/Ecommerce_App",
         image: Image_Ecommerce
     },
     {
