@@ -9,7 +9,7 @@ const SkillList = [
     },
     {
         title: "Other Technologies",
-        items: ["Microsoft Office", "Google Cloud", "Linux", "Bash Scripting", "XCode", "Notion"]
+        items: ["Microsoft Office", "Google Cloud", "Linux", "MongoDB", "Firebase", "XCode", "Notion"]
     }
 ]
 
