@@ -15,7 +15,7 @@ const ProjectList = [
     {
         name: "Markdown Article Blog", 
         language: "JavaScript",
-        framework_library: "React",
+        framework_library: "Express",
         github_link: "https://github.com/david-hp-0726/Markdown_Blog",
         image: Image_Blog
     },
