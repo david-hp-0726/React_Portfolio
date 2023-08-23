@@ -3,6 +3,7 @@ import Image_Todoapp from '../assets/todoapp.png';
 import Image_Xgboost from '../assets/xgboost.png';
 import Image_Translation from '../assets/translation.png';
 import Image_Ecommerce from '../assets/ecommerce.png'
+import Image_Wordle from '../assets/wordle.png';
 
 const ProjectList = [
     { 
@@ -25,6 +26,13 @@ const ProjectList = [
         framework_library: "Django",
         github_link: "https://github.com/david-hp-0726/To_Do_App",
         image: Image_Todoapp
+    },
+    {
+        name: "Wordle Clone",
+        language: "Swift",
+        framework_library: "SwiftUI",
+        github_link: "https://github.com/david-hp-0726/Wordle_Clone",
+        image: Image_Wordle
     },
     {
         name: "Study Covid-19 with ML Model",
