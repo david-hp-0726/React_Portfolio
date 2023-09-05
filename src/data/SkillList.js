@@ -5,7 +5,7 @@ const SkillList = [
     },
     {
         title: "Frameworks / Libraries",
-        items:  ["React", "Express", "Django", "SwiftUI"],
+        items:  ["React", "Express", "Django", "SwiftUI", "Spring Boot"],
     },
     {
         title: "Other Technologies",
