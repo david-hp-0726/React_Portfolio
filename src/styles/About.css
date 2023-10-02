@@ -20,13 +20,13 @@
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #e9d35b;
-  font-size: calc(30px + 2vw);
+  font-size: calc(36px + 2vw);
   margin-bottom: 40px;
 }
 
 .prompt {
   width: 50%;
-  font-size: calc(15px + 1vw);
+  font-size: calc(18px + 1vw);
   margin-bottom: 30px;
 }
 
@@ -41,7 +41,8 @@
   display: flex;
   font-weight: 600;
   padding: 1rem;
-  width: 9rem;
+  width: calc(9rem + 2vw);
+  height: calc(100% + 2vh);
   border-radius: 2rem;
   align-items: center;
   justify-content: space-evenly;
@@ -51,4 +52,8 @@
 .btn:hover {
   cursor: pointer;
   background: rgb(128, 128, 128);
+}
+
+.btn-text {
+  font-size: calc(100% + 0.3vw);
 }
