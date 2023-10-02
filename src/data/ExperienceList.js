@@ -15,7 +15,7 @@ const ExperienceList = [
     position: "Research Assistant",
     duties: [
       "Supported the development of a platform that analyzes and manages whole-slide pathology imaging data",
-      "Built a Python Dash Component to enable the effective display of high-resolute IFFF images with zooming and slideshow",
+      "Built a Python Dash Component to enable the effective display of high-resolute IIIF images with zooming and slideshow",
     ],
   },
   {
