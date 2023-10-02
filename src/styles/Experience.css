@@ -11,7 +11,7 @@
 }
 
 .experienceList {
-  margin: 30px 85px 80px 85px;
+  margin: 30px 60px 30px 60px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -38,4 +38,20 @@
 .experienceItem {
   border-top: 2px black solid;
   padding-top: 5px;
+}
+
+@media screen and (min-width: 1500px) {
+  .experienceList {
+    margin-left: calc(60px + 5vw);
+    margin-right: calc(60px + 5vw);
+    gap: 5vh;
+  }
+  .experienceList h3 {
+    font-size: calc(100% + 0.6vw);
+  }
+  .experienceList p,
+  .position,
+  .duties {
+    font-size: calc(100% + 0.3vw);
+  }
 }

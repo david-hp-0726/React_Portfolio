@@ -1,10 +1,10 @@
 .skills {
-  width: 100%;
-  height: auto;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: first;
   align-items: center;
+  position: relative;
 }
 
 .skillTitle {
@@ -17,9 +17,10 @@
 
 .skillContainer {
   gap: 2rem;
+  display: grid;
   display: flex;
   margin-top: 2rem;
-  margin-bottom: 15rem;
+  margin-bottom: 2rem;
 }
 
 .skillBox {
@@ -37,12 +38,13 @@
   margin: 20px;
 }
 
+.checkmark {
+  align-self: center;
+}
+
 .skillItems {
-  display: flex;
-  text-align: initial;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px 5px;
   margin-left: 10px;
 }
@@ -55,10 +57,22 @@
 .skillItem {
   display: flex;
   width: 8rem;
-  /* justify-content: space-around; */
+  text-align: center;
   gap: 1rem;
   font-weight: 300px;
   font-size: 20px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1500px) {
+  .skillItems {
+    grid-template-columns: 1fr;
+  }
+  .skillItem {
+    font-size: calc(20px + 0.1vw);
+    text-align: left;
+    margin-left: 25%;
+  }
 }
 
 @media screen and (max-width: 1300px) {

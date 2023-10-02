@@ -62,16 +62,19 @@
 }
 
 @media only screen and (min-width: 1300px) {
+  .links {
+    gap: 40px;
+  }
   .navbar a {
-    font-size: 40px;
+    font-size: 2vw;
   }
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   .navbar a {
     width: 70px;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .toggleButton {
