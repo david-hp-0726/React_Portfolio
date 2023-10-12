@@ -4,9 +4,10 @@ const ExperienceList = [
     date: "Sep 2023 - Present",
     position: "Frontend Intern",
     duties: [
-      "Assisted with developing an AI-learning assistant that dynamically generates personalized practice exercises and materials",
-      "Supported user authentication by appending JWT tokens to backend API queries",
-      "Currently building an API using Redux Toolkit Query to enable the update and delete of user profiles",
+      "Assisted with the development of an AI-learning assistant that generates personalized practice exercises with textbooks using TypeScript and Next.js",
+      "Implemented frontend logic for authenticating users and preventing unauthorized parties from accessing protected routes",
+      "Built Redux Toolkit Query to connect frontend with Spring Boot backend to support user data management",
+      "Created a mailing-list form to collect user data and improve the appearance of the landing page using Tailwind CSS",
     ],
   },
   {
