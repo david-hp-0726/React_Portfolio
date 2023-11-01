@@ -8,6 +8,7 @@ const ExperienceList = [
       "Implemented frontend logic for authenticating users and preventing unauthorized parties from accessing protected routes",
       "Built Redux Toolkit Query to connect frontend with Spring Boot backend to support user data management",
       "Created a mailing-list form to collect user data and improve the appearance of the landing page using Tailwind CSS",
+      "Deployed application to a custom domain with Vercel and AWS Route 53 and documented the deployment process",
     ],
   },
   {
