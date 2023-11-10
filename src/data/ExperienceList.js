@@ -4,11 +4,10 @@ const ExperienceList = [
     date: "Sep 2023 - Present",
     position: "Frontend Intern",
     duties: [
-      "Assisted with the development of an AI-learning assistant that generates personalized practice exercises with textbooks using TypeScript and Next.js",
-      "Implemented frontend logic for authenticating users and preventing unauthorized parties from accessing protected routes",
-      "Built Redux Toolkit Query to connect frontend with Spring Boot backend to support user data management",
-      "Created a mailing-list form to collect user data and improve the appearance of the landing page using Tailwind CSS",
-      "Deployed application to a custom domain with Vercel and AWS Route 53 and documented the deployment process",
+      "Developing an AI-learning assistant that generates personalized practice exercises with textbooks using TypeScript and Next.js",
+      "Enabled user authentication by implementing robust frontend logic, safeguarding protected routes from unauthorized access",
+      "Designed intuitive user flow and input forms for registration and file upload, integrated with backend API using RTK Query",
+      "Deployed application with Vercel and AWS Route 53 and documented the deployment process for future reference",
     ],
   },
   {
@@ -16,8 +15,8 @@ const ExperienceList = [
     date: "Sep 2023 - Present",
     position: "Research Assistant",
     duties: [
-      "Supported the development of a platform that analyzes and manages whole-slide pathology imaging data",
-      "Built a Python Dash Component to enable the effective display of high-resolute IIIF images with zooming and slideshow",
+      "Contributed to the development of a platform for analyzing and managing of whole-slide pathology imaging data",
+      "Built a Python Dash Component using React Clover IIIF library, incorporated features like zooming and slideshow",
     ],
   },
   {
@@ -25,8 +24,9 @@ const ExperienceList = [
     date: "Oct 2022 - May 2023",
     position: "Project Lead",
     duties: [
-      "Led a project to analyze the relationships between mental health metrics, COVID-19, and economic indicators",
-      "Cleaned and merged economic indicators, mental health, and Covid-19 data from CDC, BEA, and NYT databases",
+      "Directed a project focused on analyzing the relationships between mental health metrics, COVID-19, and economic indicators",
+      "Orchestrated the cleaning and integration of raw datasets, building a multi-dimensional time-series dataframe for analysis",
+      "Successfully constructed high-performing XGBoost models that predict mental health metrics with low error rates"
     ],
   },
   {
@@ -34,8 +34,8 @@ const ExperienceList = [
     date: "Sep 2018 – May 2022",
     position: "Chief Finance Officer",
     duties: [
-      "Led a team of 5 members to manage and analyze transaction records using Square Business Banking and Wave Financial",
-      "Made monthly financial records and provide suggestions for design decisions on school apparel and souvenirs",
+      "Directed a 5-member team to manage and analyze transaction records using Square Business Banking and Wave Financial",
+      "Made monthly financial reports and delivered valuable suggestions for purchase and design decisions regarding products",
       "Organized weekly meetings to offer performance feedback and technical guidance",
     ],
   },
