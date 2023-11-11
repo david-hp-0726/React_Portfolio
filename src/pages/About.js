@@ -13,7 +13,7 @@ function About() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, My Name is David</h2>
+        <h2>Hi👋 My Name is David</h2>
         <div className="prompt">
           A CS student with a passion for learning and creating
         </div>
