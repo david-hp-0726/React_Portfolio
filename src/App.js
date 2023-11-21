@@ -6,6 +6,7 @@ import Skills from "./pages/Skills";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Experience from "./pages/Experience";
+import Certificates from "./pages/Certificates";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/certificates" element={<Certificates />} />
         </Routes>
       </BrowserRouter>
     </div>
