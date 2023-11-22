@@ -62,9 +62,6 @@
     height: calc(280px + 2vh);
   }
   .projectItem h1 {
-    font-size: calc(100% + 0.6vw);
-  }
-  .projectItem h4 {
-    font-size: calc(100% + 0.2vw);
+    font-size: 30px;
   }
 }
