@@ -39,29 +39,36 @@
 }
 
 .projectItem h1 {
-  font-size: 25px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 22px;
+}
+
+.projectItem h4 {
+  font-size: 15px;
 }
 
 .projectItem .bgImage {
+  vertical-align: text-top;
+  background-size: contain;
   width: 100%;
   height: 200px;
   background-position: left;
-  background-size: cover;
   background-repeat: no-repeat;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 @media only screen and (min-width: 1500px) {
-  .projectList {
+  /* .projectList {
     margin-left: calc(10px + 5vw);
     margin-right: calc(10px + 5vw);
   }
   .projectItem {
     width: calc(300px + 2vw);
     height: calc(280px + 2vh);
-  }
-  .projectItem h1 {
+  } */
+  /* .projectItem h1 {
     font-size: 30px;
-  }
+  } */
 }

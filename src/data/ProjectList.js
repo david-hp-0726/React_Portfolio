@@ -8,7 +8,7 @@ import Image_ANN from "../assets/neural-networks.jpg";
 
 const ProjectList = [
   {
-    name: "Amazon Mock-up",
+    name: "E-commerce Website",
     language: "JavaScript",
     framework_library: "React",
     github_link: "https://github.com/david-hp-0726/Ecommerce_App",
