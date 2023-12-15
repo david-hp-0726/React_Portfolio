@@ -4,9 +4,10 @@ import "react-slideshow-image/dist/styles.css";
 import "../styles/Certificates.css";
 import Image_FrontendExpert from "../assets/certificates/FrontendExpert_Certificate.jpg";
 import Image_AlgoExpert from "../assets/certificates/AlgoExpert_Certificate.jpg";
+import Image_Leetcode from "../assets/certificates/leetcode_annual_award_wide.png";
 
 // const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const images = [Image_FrontendExpert, Image_AlgoExpert];
+const images = [Image_FrontendExpert, Image_AlgoExpert, Image_Leetcode];
 const colors = Array(images.length).fill("#FFBB48");
 const delay = 4000;
 
