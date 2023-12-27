@@ -1,12 +1,12 @@
 const ExperienceList = [
   {
     organization: "CuraStone Corp",
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - Dec 2023",
     position: "Frontend Intern",
     duties: [
-      "Developing an AI-learning assistant that generates personalized practice exercises with textbooks using TypeScript and Next.js",
-      "Enabled user authentication by implementing robust frontend logic, safeguarding protected routes from unauthorized access",
-      "Designed intuitive user flow and input forms for registration and file upload, integrated with backend API using RTK Query",
+      "Developed an AI-learning assistant that generates flashcards and personalized exercises using TypeScript and Next.js",
+      "Implemented user authentication, file upload, and course management, integrated with backend API using RTK Query",
+      "Designed responsive webpages using Tailwind CSS to ensure proper display of elements on various screen sizes",
       "Deployed application with Vercel and AWS Route 53 and documented the deployment process for future reference",
     ],
   },
@@ -26,7 +26,7 @@ const ExperienceList = [
     duties: [
       "Directed a project focused on analyzing the relationships between mental health metrics, COVID-19, and economic indicators",
       "Orchestrated the cleaning and integration of raw datasets, building a multi-dimensional time-series dataframe for analysis",
-      "Successfully constructed high-performing XGBoost models that predict mental health metrics with low error rates"
+      "Successfully constructed high-performing XGBoost models that predict mental health metrics with low error rates",
     ],
   },
   {
