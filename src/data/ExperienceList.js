@@ -1,5 +1,16 @@
 const ExperienceList = [
   {
+    organization: "Emory Goizueta Business School",
+    date: "Jan 2024 - Present",
+    position: "AI Research Assistant",
+    duties: [
+      "Developed Next.js frontend platform to display videos from YouTube Data API, manage watch lists and commercials, and collect user interaction data",
+      "Engineered a robust SpringBoot backend system to process frontend requests and database querying, deployed on AWS EC2",
+      "Architected MySQL database schema for storing complex data for videos, watch lists, commercials, and user interactions",
+      "Designed an algorithm to quantify video content similarity, leveraging AWS for object detection, ChatGPT for transcript keyword generation, and SpaCy for semantic similarity analysis",
+    ],
+  },
+  {
     organization: "CuraStone Corp",
     date: "Sep 2023 - Dec 2023",
     position: "Frontend Intern",
@@ -27,16 +38,6 @@ const ExperienceList = [
       "Directed a project focused on analyzing the relationships between mental health metrics, COVID-19, and economic indicators",
       "Orchestrated the cleaning and integration of raw datasets, building a multi-dimensional time-series dataframe for analysis",
       "Successfully constructed high-performing XGBoost models that predict mental health metrics with low error rates",
-    ],
-  },
-  {
-    organization: "Vibe Student Stores",
-    date: "Sep 2018 – May 2022",
-    position: "Chief Finance Officer",
-    duties: [
-      "Directed a 5-member team to manage and analyze transaction records using Square Business Banking and Wave Financial",
-      "Made monthly financial reports and delivered valuable suggestions for purchase and design decisions regarding products",
-      "Organized weekly meetings to offer performance feedback and technical guidance",
     ],
   },
 ];
